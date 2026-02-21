@@ -1,6 +1,6 @@
 #include "C:\Users\ACER\Desktop\cift_nihai_buton\main.h"
 
-int yon=0;
+int yon=0 yon2=0;
 
 void main()
 {
