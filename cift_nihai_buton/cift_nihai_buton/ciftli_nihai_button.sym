@@ -1,0 +1,48 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020     i
+021     main.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+10D-10E @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+0004  main
+0004  @cinit
+
+Project Directory:
+    C:\Users\ACER\Desktop\cift_nihai_buton\
+
+Project Files:
+    ciftli_nihai_button.c
+    ciftli_nihai_button.h
+    ..\..\..\..\Program Files (x86)\PICC\devices\16F628A.h
+
+Units:
+    C:\Users\ACER\Desktop\cift_nihai_buton\ciftli_nihai_button.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      ciftli_nihai_button.err
+    Ext Symbols: ciftli_nihai_button.esym
+    INHX8:       ciftli_nihai_button.hex
+    Symbols:     ciftli_nihai_button.sym
+    List:        ciftli_nihai_button.lst
+    Debug/COFF:  ciftli_nihai_button.cof
+    Project:     ciftli_nihai_button.PJT
+    Call Tree:   ciftli_nihai_button.tre
+    Statistics:  ciftli_nihai_button.sta
